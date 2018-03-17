@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "build": true,
+    "node_modules": true,
+    "dist": true,
+    "functions/lib": true,
+    "functions/node_modules": true
+  },
+  "eslint.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
