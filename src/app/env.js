@@ -8,9 +8,9 @@ const env = {
   // },
   production: {
     firebaseConfig: {
-      apiKey: 'AIzaSyBJnp_8Nl75vNIgedUav5EYtjm-4JAOjP0',
-      authDomain: 'whereshouldweeattoday.firebaseapp.com',
-      databaseURL: 'https://whereshouldweeattoday-18646.firebaseio.com/'
+      apiKey: 'AIzaSyDiTRYRMAPIG5udTp1S61e4oW6Bh1oAssE',
+      authDomain: 'what-should-we-eat.firebaseapp.com',
+      databaseURL: 'https://what-should-we-eat.firebaseio.com/'
     }
   }
 };
