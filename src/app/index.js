@@ -17,7 +17,7 @@ const store = configureStore(history);
 ReactDOM.render(
   <MuiThemeProvider>
     <Provider store={store}>
-      <FirebaseProvider firebaseApp={firebaseApp} store={store}>
+      <FirebaseProvider firebaseApp={firebaseApp} store={store} waitForAuth={true}>
         <Router>
           <div>
             <App />
